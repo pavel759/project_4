@@ -1,0 +1,21 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/source-sans-3-v18-cyrillic_latin-regular.woff2);    
+}
+@font-face {
+    font-display: swap;
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 600;
+    src: url(../fonts/source-sans-3-v18-cyrillic_latin-600.woff2);
+}
+@font-face {
+    font-display: swap;
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/source-sans-3-v18-cyrillic_latin-700.woff2);
+}

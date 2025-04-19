@@ -1,0 +1,149 @@
+/* HERO */
+/* ----------------------------------- */
+
+.hero_title {
+    grid-column: 6 span;
+
+}
+
+.hero_dscrpt {
+    grid-column: 6 span;
+    width: 379px;
+}
+
+.section_t1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 1.2;
+    color: var(--dark);
+    margin-bottom: var(--lg);
+}
+
+.hero_dscrpt_title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    color: var(--dark);
+}
+
+
+.hero_img {
+    width: 1180px;
+    height: 440px;
+}
+
+.section_t2 {
+    margin-bottom: var(--lg);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+    color: var(--dark);
+}
+
+/* ABOUT_О КОМПАНИИ */
+/* ----------------------------------- */
+
+.about_top {
+    row-gap: 24px;
+    margin-bottom: 32px;
+}
+
+.about_dscript {
+    grid-column: 6 span;
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4;
+    color: var(--dark);
+}
+
+.about_bottom-img {
+    width: 580px;
+    height: 280px;
+}
+
+/* PRODUCTS_ПРОДУКЦИЯ */
+/* ----------------------------------- */
+
+.card {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    padding: 32px 24px;
+    background: var(--light-gray);
+    grid-column: 4 span;
+    width: 380px;
+    height: 435px;
+}
+
+.card_img {
+    width: 200px;
+    height: auto;
+}
+
+.card_text {
+    grid-row: 2 block;
+}
+
+
+.section_t3 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1.2;
+    color: var(--dark);
+}
+
+.card_info {
+    margin: 12px 0 0 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--accent);
+}
+
+/* NEWS_НОВОСТИ */
+/* ----------------------------------- */
+
+.news_card {
+grid-column: span;
+}
+
+.card_wrapper {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    background: var(--light-gray);
+    width: 380px;
+    height: 478px;
+}
+
+.news_img {
+    width: 380px;
+    height: 251px;
+}
+
+.news_card-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    color: var(--dark);
+    margin: 16px;
+}
+
+.news_card-bottom {
+    grid-row: 2 block;
+    justify-content: space-between;
+    padding: 24px 16px;
+}
+
+.news_card-info {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    color: var(--accent);
+}
+
+.news_card-data {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4;
+    color: var(--gray);
+}

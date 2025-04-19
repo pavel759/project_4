@@ -1,0 +1,51 @@
+/* FOOTER */
+/* ----------------------------------- */
+.footer {
+    background-color: var(--dark);
+    height: 361px;
+    width: 100%;
+}
+
+.footer_wrapper {
+    padding: 56px 0;
+}
+
+.footer_logo {
+    grid-column: 0 /6;
+    padding: 56px 0;
+}
+
+/* NAV */
+
+.footer_nav {
+    grid-column: 6/13;
+    padding: 56px 25px 0 0;
+    gap: 57px;
+
+}
+
+.nav_bar-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    color: var(--light);
+    padding-bottom: 24px;
+}
+
+/* COPYRIGHT_АВТОРСКОЕ ПРАВО */
+/* ----------------------------------- */
+
+.footer_copyright {
+    grid-column: 12 span;
+}
+
+.copyright {
+    display: block;
+    width: 100%;
+    margin-top: 49px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    color: var(--light);
+}

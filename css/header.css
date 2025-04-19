@@ -1,0 +1,50 @@
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0;
+}
+
+.header-contacts {
+    gap: var(--gap);
+}
+
+.contact-title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    color: var(--dark);
+    text-align: right;
+}
+
+.contact {
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: var(--accent);
+    text-align: right;
+}
+
+.header-bottom {
+    border-top: 1px solid #000;
+    padding-top: 16px;
+    justify-content: space-between;
+}
+
+.nav-bar {
+    gap: 44px;
+}
+
+.nav-bar_item:hover {
+    color: var(--accent);
+}
+
+.call {
+    white-space: nowrap;
+    padding-left: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: var(--accent);
+}
