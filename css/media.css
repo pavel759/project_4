@@ -1,0 +1,17 @@
+@media (max-width: 1200px) {
+
+    .header-contacts,
+    .header-bottom {
+        display: none;
+    }
+
+    .container {
+        background: rgb(99, 99, 255);
+    }
+}
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 455px) {}

@@ -1,7 +1,9 @@
 .header-top {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     padding: 35px 0;
+    border-bottom: 1px solid var(--gray);
 }
 
 .header-contacts {
@@ -26,7 +28,6 @@
 }
 
 .header-bottom {
-    border-top: 1px solid #000;
     padding-top: 16px;
     justify-content: space-between;
 }

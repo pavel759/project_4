@@ -22,15 +22,17 @@ body {
     font-family: var(--font-family);
     color: inherit;
     position: relative;
+    
 }
 
 *,
 ::after,
 ::before {
-    box-sizing: inherit;
+    box-sizing: border-box;
 }
 
 .container {
+    display: block;
     margin: 0 auto;
     max-width: var(--container-width);
     padding: 0 var(--container-offset);
@@ -39,6 +41,7 @@ body {
 a {
     text-decoration: none;
     color: inherit;
+    fgfgfgfgffgfgf
 }
 
 button {
@@ -46,6 +49,10 @@ button {
     padding: 0;
     background: transparent;
     cursor: pointer;
+}
+
+.page_body {
+
 }
 
 .section-ofset {
