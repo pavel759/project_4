@@ -16,6 +16,9 @@
     <link rel="preload" href="fonts/source-sans-3-v18-cyrillic_latin-regular.woff2" as="font" crossorigin>
     <link rel="preload" href="fonts/source-sans-3-v18-cyrillic_latin-600.woff2" as="font" crossorigin>
     <link rel="preload" href="fonts/source-sans-3-v18-cyrillic_latin-700.woff2" as="font" crossorigin>
+    <script defer="defer" src="script/swiper-bundle.min.js"></script>
+    <script defer="defer" src="script/main.js"></script>
+
 </head>
 
 <body>
@@ -97,7 +100,7 @@
                         в наибольшей степени удовлетворять возрастающие требования наших заказчиков.</p>
 
                 </div>
-                <div class="about_bottom grid">
+                <div class="about_bottom flex-row">
                     <img class="about_bottom-img" src="img/about_img-1.jpg" alt="Фото компании">
                     <img class="about_bottom-img" src="img/about_img-2.jpg" alt="Фото компании">
                 </div>
@@ -161,37 +164,110 @@
                 <img src="img/map.svg" alt="">
             </div>
         </section>
+
         <section class="news">
             <div class="container">
                 <h2 class="section_t2">Новости</h2>
-                <div class="news_card grid">
+                <div class="news_wrapper">
+                    <div class="swiper ">
+                        <div class="swiper-wrapper flex-row">
 
-                    <a class="card_wrapper" href="#">
-                        <img class="news_img" src="img/news-1.jpg" alt="">
-                        <p class="news_card-text">НПП «ПИОНЕР» подтвердило свои компетенции в бласти консультирования
-                            и изготовления…</p>
-                        <div class="news_card-bottom flex-row"><span class="news_card-info">Читать далее</span>
-                            <span class="news_card-data">20.07.2020</span>
-                        </div>
-                    </a>
+                            <article class="swiper-slide news_slide" style="max-width: 380px; height: 479px;">
+                                <img src="img/news-1.jpg" alt="">
+                                <div class="new_slide_info">
+                                    <h3 class="news_title">НПП «ПИОНЕР» подтвердило свои компетенции в области
+                                        консультирования и изготовления…</h3>
+                                    <div class="news_slide_bottom">
+                                        <a class="news_slide_link" href="#">Читать далее</a>
+                                        <time class="news_slide_data" datetime="20-07-2020">20.07.2020</time>
+                                    </div>
+                                </div>
+                            </article>
 
-                    <a class="card_wrapper" href="#">
-                        <img class="news_img" src="img/news-2.jpg" alt="">
-                        <p class="news_card-text">Поздравляем коллектив регионального представительства «ПИОНЕР»
-                            с праздником!</p>
-                        <div class="news_card-bottom flex-row"><span class="news_card-info">Читать далее</span>
-                            <span class="news_card-data">18.07.2020</span>
-                        </div>
-                    </a>
+                            <article class="swiper-slide news_slide" style="max-width: 380px; height: 479px;">
+                                <img src="img/news-2.jpg" alt="">
+                                <div class="new_slide_info">
+                                    <h3 class="news_title">Поздравляем коллектив регионального представительства
+                                        «ПИОНЕР» с праздником!</h3>
+                                    <div class="news_slide_bottom">
+                                        <a class="news_slide_link" href="#">Читать далее</a>
+                                        <time class="news_slide_data" datetime="18-07-2020">18.07.2020</time>
+                                    </div>
+                                </div>
+                            </article>
 
-                    <a class="card_wrapper" href="#">
-                        <img class="news_img" src="img/news-3.jpg" alt="">
-                        <p class="news_card-text">Перенос сроков проведения запланированных работ в 2020 году</p>
-                        <div class="news_card-bottom flex-row"><span class="news_card-info">Читать далее</span>
-                            <span class="news_card-data">20.06.2020</span>
+                            <article class="swiper-slide news_slide" style="max-width: 380px; height: 479px;">
+                                <img src="img/news-3.jpg" alt="">
+                                <div class="new_slide_info">
+                                    <h3 class="news_title">Перенос сроков проведения запланированных работ в 2020 году
+                                    </h3>
+                                    <div class="news_slide_bottom">
+                                        <a class="news_slide_link" href="#">Читать далее</a>
+                                        <time class="news_slide_data" datetime="20-06-2020">20.06.2020</time>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="swiper-slide news_slide" style="max-width: 380px; height: 479px;">
+                                <img src="img/news-1.jpg" alt="">
+                                <div class="new_slide_info">
+                                    <h3 class="news_title">НПП «ПИОНЕР» подтвердило свои компетенции в области
+                                        консультирования и изготовления…</h3>
+                                    <div class="news_slide_bottom">
+                                        <a class="news_slide_link" href="#">Читать далее</a>
+                                        <time class="news_slide_data" datetime="20-07-2020">20.07.2020</time>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="swiper-slide news_slide" style="max-width: 380px; height: 479px;">
+                                <img src="img/news-2.jpg" alt="">
+                                <div class="new_slide_info">
+                                    <h3 class="news_title">Поздравляем коллектив регионального представительства
+                                        «ПИОНЕР» с праздником!</h3>
+                                    <div class="news_slide_bottom">
+                                        <a class="news_slide_link" href="#">Читать далее</a>
+                                        <time class="news_slide_data" datetime="18-07-2020">18.07.2020</time>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="swiper-slide news_slide" style="max-width: 380px; height: 479px;">
+                                <img src="img/news-3.jpg" alt="">
+                                <div class="new_slide_info">
+                                    <h3 class="news_title">Перенос сроков проведения запланированных работ в 2020 году
+                                    </h3>
+                                    <div class="news_slide_bottom">
+                                        <a class="news_slide_link" href="#">Читать далее</a>
+                                        <time class="news_slide_data" datetime="20-06-2020">20.06.2020</time>
+                                    </div>
+                                </div>
+                            </article>
+
                         </div>
-                    </a>
+
+                        <div class="swiper-pagination"></div>
+
+                        <div class="swiper-button-prev new_button prev">
+                            <use>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                                    <path
+                                        d="M15.293 3.293L6.586 12l8.707 8.707 1.414-1.414L9.414 12l7.293-7.293-1.414-1.414z" />
+                                </svg>
+                            </use>
+                        </div>
+                        <div class="swiper-button-next new_button">
+                            <use>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                                    <path
+                                        d="M7.293 4.707L14.586 12l-7.293 7.293 1.414 1.414L17.414 12 8.707 3.293 7.293 4.707z" />
+                                </svg>
+                            </use>
+                        </div>
+
+                    </div>
                 </div>
+
 
             </div>
         </section>

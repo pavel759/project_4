@@ -2,7 +2,7 @@
     --font-family: 'Source Sans 3';
     --content-width: 1180px;
     --container-offset: 15px;
-    --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+    --container-width: calc(var(--content-width) + (var(--container-offset) *2));
     --gap: 20px;
     --section-ofset: 80px;
     --lg: 32px;
@@ -53,8 +53,10 @@ button {
 }
 
 img {
-    max-width: auto;
+    display: block;
+    max-width: 100%;
     height: auto;
+    object-fit: cover;
 }
 
 .flex-columns {
@@ -92,6 +94,5 @@ section {
     list-style: none;
     padding: 0;
     margin: 0;
-    word-break:normal;
+    word-break: normal;
 }
- 
