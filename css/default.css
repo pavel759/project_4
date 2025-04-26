@@ -80,7 +80,6 @@ img {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: var(--gap);
-    box-sizing: inherit;
 }
 
 .section_offset {

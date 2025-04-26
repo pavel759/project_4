@@ -5,12 +5,19 @@
         display: none;
     }
 
-    .container {
-        /* background: rgb(99, 99, 255); */
-    }
+
+
 }
 
-@media (max-width: 1024px) {}
+@media (max-width: 1024px) {
+    .card_img {
+        max-height: 200px;
+    }
+
+        .card{
+            min-height: 360px;
+        }
+}
 
 @media (max-width: 768px) {}
 

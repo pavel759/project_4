@@ -62,30 +62,31 @@
 }
 
 .about_bottom-img {
-    width: 580px;
-    height: 280px;
+    grid-column: 6 span;
 }
 
 /* PRODUCTS_ПРОДУКЦИЯ */
 /* ----------------------------------- */
 
+.product_item {}
+
 .card {
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
     padding: 32px 24px;
     background: var(--light-gray);
     grid-column: 4 span;
-    width: 380px;
-    height: 435px;
+    min-height: 435px;
+    border-radius: 10px;
 }
 
 .card_img {
     width: 200px;
-    height: auto;
 }
 
 .card_text {
     grid-row: 2 block;
+    justify-content: space-between;
 }
 
 
@@ -111,7 +112,6 @@
 }
 
 .swiper {
-    width: 1180px;
     position: relative;
 }
 
