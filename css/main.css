@@ -3,27 +3,17 @@
 
 .hero_title {
     grid-column: 6 span;
-
 }
+
+
 
 .hero_dscrpt {
-    grid-column: 6 span;
-    width: 379px;
-}
-
-.section_t1 {
-    font-weight: 700;
-    font-size: 60px;
-    line-height: 1.2;
-    color: var(--dark);
-    margin-bottom: var(--lg);
-}
-
-.hero_dscrpt_title {
+    grid-column: 4 span;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
     color: var(--dark);
+    margin: 25px 0;
 }
 
 
@@ -32,13 +22,7 @@
     height: 440px; */
 }
 
-.section_t2 {
-    margin-bottom: var(--lg);
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 1.2;
-    color: var(--dark);
-}
+
 
 /* ABOUT_О КОМПАНИИ */
 /* ----------------------------------- */
@@ -90,12 +74,6 @@
 }
 
 
-.section_t3 {
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 1.2;
-    color: var(--dark);
-}
 
 .card_info {
     margin: 12px 0 0 0;
@@ -172,11 +150,15 @@
     padding: 30px;
     width: 60px;
     height: 60px;
-    background-color: var(--light-gray);
+    background-color: white;
 }
 
 .prev {
-    left: -20px;
+    left: 0.5px !important;
+}
+
+.next {
+    right: 0.5px !important;
 }
 
 .swiper-button-prev::after,

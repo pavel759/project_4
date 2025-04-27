@@ -5,6 +5,7 @@
     --container-width: calc(var(--content-width) + (var(--container-offset) *2));
     --gap: 20px;
     --section-ofset: 80px;
+    --section-ofset-lg: 60px;
     --lg: 32px;
     --accent: #607ce6;
     --dark: #333;
@@ -22,7 +23,7 @@ body {
     font-family: var(--font-family);
     color: inherit;
     position: relative;
-    
+
 }
 
 *,
@@ -41,7 +42,6 @@ body {
 a {
     text-decoration: none;
     color: inherit;
-    fgfgfgfgffgfgf
 }
 
 button {
@@ -51,12 +51,10 @@ button {
     cursor: pointer;
 }
 
-.page_body {
-
-}
+.page_body {}
 
 .section-ofset {
-    padding-top: var(--section-ofset);
+    padding-top: var(--section-offset);
 }
 
 img {
@@ -86,14 +84,30 @@ img {
     padding-top: 80px;
 }
 
-h1,
-h2,
-h3 {
+.section_t1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 1.2;
+    color: var(--dark);
+    margin-bottom: var(--lg);
     margin: 0 auto;
 }
 
-section {
-    padding-top: 80px;
+.section_t2 {
+    margin-bottom: var(--lg);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+    color: var(--dark);
+    margin: 0 auto;
+}
+
+.section_t3 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1.2;
+    color: var(--dark);
+    margin: 0 auto;
 }
 
 .list_reset {
