@@ -1,0 +1,115 @@
+@media (max-width: 900px) {
+
+.footer_content {
+        padding: 0;
+        display: block;
+    }
+
+    .footer_logo {
+        padding: 35px 0;
+    }
+
+    .footer_list {
+        display: block;
+        padding: 35px 0;
+    }
+
+    .nbw {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    :root {
+        --section-offset: 60px;
+        --lg: 20px;
+    }
+
+    .section_offset {
+        margin-top: var(--section-offset);
+    }
+
+
+
+    /* FONT / ШРИФТ */
+    /* ----------------------------------- */
+
+    .section_t2 {
+        margin-bottom: var(--lg);
+        font-size: 36px;
+    }
+
+    .section_t1 {
+        font-size: 40px;
+        margin-bottom: 0;
+    }
+
+    /* HEADER / ШАПКА */
+    /* ----------------------------------- */
+
+
+    .header_logo {
+        width: 140px;
+        height: 30px
+    }
+
+    .burger {
+        display: block;
+    }
+
+
+    /* HERO  */
+    /* ----------------------------------- */
+
+    .hero_dscrpt {
+        padding-top: 16px;
+    }
+
+    .hero_top {
+        margin-bottom: var(--lg);
+    }
+
+    .hero_top {
+        display: block;
+    }
+
+    .hero_title {
+        display: block;
+        width: auto;
+    }
+
+    /* ABOUT_О КОМПАНИИ */
+    /* ----------------------------------- */
+
+    .about_bottom {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about_dscript {
+        grid-column: 12 span;
+    }
+
+    .about_bottom-img {
+        grid-column: 1/12;
+    }
+
+    /* PRODUCTS / ПРОДУКЦИЯ */
+    /* ----------------------------------- */
+
+    .card {
+        display: grid;
+        padding: 32px 24px;
+        background: var(--light-gray);
+        grid-column: 12 span;
+        /* min-height: 435px; */
+        border-radius: 10px;
+    }
+
+    /* FOOTER / ПОДВАЛ */
+    /* ----------------------------------- */
+
+
+
+}

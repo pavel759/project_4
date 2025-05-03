@@ -4,6 +4,7 @@
   justify-content: space-between;
   padding: 35px 0;
   border-bottom: 1px solid var(--gray);
+  position: relative;
 }
 
 .header-contacts {
@@ -19,13 +20,21 @@
 }
 
 .contact {
-  font-weight: 600;
+  font-weight:400;
   font-size: 20px;
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: var(--accent);
   text-align: right;
 }
+
+
+.contact-number--mobile,
+.contact-email--mobile,
+.call-title--mobile {
+  display: none;
+}
+
 
 .header-bottom {
   padding-top: 16px;
@@ -36,9 +45,10 @@
   gap: 44px;
 }
 
-.nav-bar_item:hover {
-  color: var(--accent);
-}
+/* BURGER / БУРГЕР  */
+/* ----------------------------------- */
+
+
 
 .call {
   white-space: nowrap;

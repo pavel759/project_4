@@ -26,7 +26,7 @@
     <header class="header">
         <div class="container">
             <div class="header-top">
-                <a href=""><img src="img/logo.svg" alt="Логотип"></a>
+                <a href=""><img class="header_logo" src="img/logo.svg" width="180" height="38" alt="Логотип"></a>
                 <div class="header-contacts flex-row">
                     <div class="contact-email flex-columns">
                         <span class="contact-title">По вопросам и предложениям</span>
@@ -36,28 +36,97 @@
                         <span class="contact-title">Для консультаций</span>
                         <a class="contact" href="#">+7 (495) 456-24-21</a>
                     </div>
-                   
+
+                    <input type="checkbox" id="burger">
+                    <label for="burger" class="lb">
+                        <span class="burger_line"></span>
+                    </label>
+                    <ul class="nav-bar list_reset  main_menu--mobile ">
+                        <a href="#" class="main_menu-link">
+                            <li class="nav-bar_item" href="#">Главная</li>
+                        </a>
+                        <a href="#" class="main_menu-link">
+                            <li class="nav-bar_item" href="#">О предприятии</li>
+                        </a>
+                        <a href="#" class="main_menu-link">
+                            <li class="nav-bar_item" href="#">Новости</li>
+                        </a>
+                        <a href="#" class="main_menu-link">
+                            <li class="nav-bar_item" href="#">Продукция</li>
+                        </a>
+                        <a href="#" class="main_menu-link">
+                            <li class="nav-bar_item" href="#">Услуги</li>
+                        </a>
+                        <a href="#" class="main_menu-link">
+                            <li class="nav-bar_item" href="#">Поддержка</li>
+                        </a>
+                        <a href="#" class="main_menu-link">
+                            <li class="nav-bar_item" href="#">География поставок</li>
+                        </a>
+                        <a href="#" class="main_menu-link">
+                            <li class="nav-bar_item" href="#">Контакты</li>
+                        </a>
+                        <div class="contact-email--mobile flex-columns">
+                            <span class="contact-title">По вопросам и предложениям</span>
+                            <a class="contact" href="#">pionerrr@sila.ru</a>
+                        </div>
+                        <div class="contact-number--mobile flex-columns">
+                            <span class="contact-title">Для консультаций</span>
+                            <a class="contact" href="#">+7 (495) 456-24-21</a>
+                        </div>
+
+                        <div class="call-title--mobile flex-row ">
+                            <img src="img/Vector.svg" alt="Call">
+                            <span class="call">ПЕРЕЗВОНИ МНЕ</span>
+                        </div>
+
+                    </ul>
                 </div>
 
             </div>
 
             <div class="header-bottom flex-row">
-                <nav>
-                    <div class="nav-bar flex-row ">
-                        <a class="nav-bar_item" href="#">Главная</a>
-                        <a class="nav-bar_item" href="#">О предприятии</a>
-                        <a class="nav-bar_item" href="#">Новости</a>
-                        <a class="nav-bar_item" href="#">Продукция</a>
-                        <a class="nav-bar_item" href="#">Услуги</a>
-                        <a class="nav-bar_item" href="#">Поддержка</a>
-                        <a class="nav-bar_item" href="#">География поставок</a>
-                        <a class="nav-bar_item" href="#">Контакты</a>
-                    </div>
+
+                <ul class="nav-bar list_reset flex-row ">
+                    <a href="#">
+                        <li class="nav-bar_item" href="#">Главная</li>
+                    </a>
+
+                    <a href="#">
+                        <li class="nav-bar_item" href="#">О предприятии</li>
+                    </a>
+
+                    <a href="#">
+                        <li class="nav-bar_item" href="#">Новости</li>
+                    </a>
+
+                    <a href="#">
+                        <li class="nav-bar_item" href="#">Продукция</li>
+                    </a>
+                    <a href="#">
+                        <li class="nav-bar_item" href="#">Услуги</li>
+                    </a>
+
+                    <a href="#">
+                        <li class="nav-bar_item" href="#">Поддержка</li>
+                    </a>
+
+                    <a href="#">
+                        <li class="nav-bar_item" href="#">География поставок</li>
+                    </a>
+
+                    <a href="#">
+                        <li class="nav-bar_item" href="#">Контакты</li>
+                    </a>
+
+                </ul>
+
                 </nav>
                 <div class="call-title flex-row ">
                     <img src="img/Vector.svg" alt="Call">
                     <span class="call">ПЕРЕЗВОНИ МНЕ</span>
                 </div>
+
 
             </div>
         </div>
@@ -72,12 +141,13 @@
                     <div class="hero_title">
                         <h1 class="section_t1">Российский завод силовых машин</h1>
                     </div>
-                    
-                        <p class="hero_dscrpt">научно-производственное предприятие, занимающееся разработкой и
-                            производством силовых машин.</p>
-                    
+
+                    <p class="hero_dscrpt">научно-производственное предприятие, занимающееся разработкой и
+                        производством силовых машин.</p>
+
                 </div>
-                <img class="hero_img" src="img/hero.png" alt="ПИОНЕР-Российский завод силовых машин">
+                <img class="hero_img" src="img/hero.png" srcset="img/hero-2x.png 2x" 1180px; height: 440px;
+                    alt="ПИОНЕР-Российский завод силовых машин">
             </div>
         </section>
 
@@ -105,7 +175,7 @@
                         в наибольшей степени удовлетворять возрастающие требования наших заказчиков.</p>
 
                 </div>
-                <div class="about_bottom grid">
+                <div class="about_bottom">
                     <img class="about_bottom-img" src="img/about_img-1.jpg" alt="Фото компании">
                     <img class="about_bottom-img" src="img/about_img-2.jpg" alt="Фото компании">
                 </div>
@@ -283,31 +353,45 @@
 
         <div class="container" style="row-gap: 0;">
 
-            <div class="footer_nav_wrapper grid">
-                <div class="footer_logo"><a href=""><img src="img/logo_footer.svg" alt=""></a></div>
-                <nav class="footer_nav flex-row ">
-                    <ul class="list_reset">
-                        <li class="nav_bar-item">Главная</li>
-                        <li class="nav_bar-item">О предприятии</li>
-                        <li class="nav_bar-item">Новости</li>
-                        <li class="nav_bar-item">Продукция</li>
-                        <li class="nav_bar-item">Услуги</li>
-                    </ul>
-                    <ul class="list_reset">
-                        <li class="nav_bar-item">Поддержка</li>
-                        <li class="nav_bar-item">География поставок</li>
-                        <li class="nav_bar-item">Контакты</li>
-                    </ul>
-                    <ul class="list_reset">
-                        <li class="nav_bar-item">Файлы</li>
-                        <li class="nav_bar-item">Поддержка</li>
-                        <li class="nav_bar-item">Политика
-                            <br>конфеденциальности</br>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="footer_copyright"><span class="copyright">1994 — 2020 ООО «ПИОНЕР»</span>
+            <div class="footer_content grid">
+                <div class="footer_logo"><a href=""><img src="img/logo_footer.svg"  width="180" height="38" alt=""></a></div>
+                <div class="footer_col-1">
+                    <nav class="footer_nav ">
+                        <div class="nav_bar flex-row">
+                            <ul class="list_reset nbw">
+                                <li class="nav_bar-item">Главная</li>
+                                <li class="nav_bar-item">О предприятии</li>
+                                <li class="nav_bar-item">Новости</li>
+                                <li class="nav_bar-item">Продукция</li>
+                                <li class="nav_bar-item">Услуги</li>
+                            </ul>
+                            <ul class="list_reset nbw">
+                                <li class="nav_bar-item">Поддержка</li>
+                                <li class="nav_bar-item">География поставок</li>
+                                <li class="nav_bar-item">Контакты</li>
+                            </ul>
+                        </div>
+                    </nav>
                 </div>
+
+                <div class="footer_list">
+                    <ul class="list_reset nbw">
+                        <a href="#">
+                            <li class="nav_bar-item">Файлы</li>
+                        </a>
+                        <a href="#">
+                            <li class="nav_bar-item">Поддержка</li>
+                        </a>
+                        <a href="#">
+                            <li class="nav_bar-item">Политика
+                                <br>конфеденциальности</br>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="footer_copyright "><span class="copyright">1994 — 2020 ООО «ПИОНЕР»</span>
             </div>
 
         </div>

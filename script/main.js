@@ -14,12 +14,15 @@ let swiperCard = new Swiper('.swiper', {
     },
 
     breakpoints: {
-        577: {
+        1024: {
+            slidesPerView: 3
+        },
+        768: {
             slidesPerView: 2
         },
-        769: {
-            slidesPerView: 3
+        425: {
+            slidesPerView: 1,
+             spaceBetween: 30.
         }
     }
-
 });

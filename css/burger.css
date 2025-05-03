@@ -1,0 +1,89 @@
+#burger {
+    display: none;
+    opacity: 0;
+}
+
+.lb {
+    display: none;
+    align-items: center;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 40px;
+    height: 50px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.lb>.burger_line,
+.lb>.burger_line::before,
+.lb>.burger_line::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: var(--dark);
+}
+
+.lb>.burger_line::before {
+    content: "";
+    top: -12px;
+}
+
+.lb>.burger_line::after {
+    content: "";
+    top: 12px;
+}
+
+.main_menu--mobile {
+    font-family: 'Source Sans 3';
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 100vh;
+    margin: 0;
+    visibility: hidden;
+    text-align: left;
+    background-color: var(--third);
+    transition: all .7s ease;
+    overflow-y: auto;
+    padding: 15px;
+}
+
+.main_menu-link {
+    display: block;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    color: var(--dark);
+    padding: 5px;
+}
+
+.main_menu-link:hover {
+    color: white;
+    background-color: #b3b1b1;
+}
+
+#burger:checked~.lb>span {
+    transform: rotate(45deg);
+}
+
+#burger:checked~.lb>span:before {
+    top: 0;
+    transform: rotate(0deg);
+}
+
+#burger:checked~.lb>span:after {
+    top: 0;
+    transform: rotate(90deg);
+}
+
+#burger:checked~.main_menu--mobile {
+    visibility: visible;
+    display: flex;
+    left: -15px;
+}

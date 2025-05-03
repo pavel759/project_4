@@ -1,9 +1,11 @@
 @import 'normalize.css';
 @import 'default.css';
 @import 'fonts.css';
+@import 'swiper-bundle.min.css';
 @import 'header.css';
+@import 'burger.css';
 @import 'main.css';
 @import 'footer.css';
-@import 'positioning.css';
-@import 'swiper-bundle.min.css';
-@import 'media.css';
+@import 'media_1024.css';
+@import 'media_768.css';
+@import 'media_320.css';

@@ -1,6 +1,8 @@
 /* HERO */
 /* ----------------------------------- */
 
+
+
 .hero_title {
     grid-column: 6 span;
 }
@@ -13,21 +15,16 @@
     font-size: 16px;
     line-height: 1.2;
     color: var(--dark);
-    margin: 25px 0;
+    margin: 0;
 }
-
-
-.hero_img {
-    /* width: 1180px;
-    height: 440px; */
-}
-
-
 
 /* ABOUT_О КОМПАНИИ */
 /* ----------------------------------- */
 
 .about_top {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: var(--gap);
     row-gap: 24px;
     margin-bottom: 32px;
 }
@@ -42,6 +39,8 @@
 }
 
 .about_bottom {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
     gap: var(--gap);
 }
 
@@ -52,11 +51,9 @@
 /* PRODUCTS_ПРОДУКЦИЯ */
 /* ----------------------------------- */
 
-.product_item {}
 
 .card {
     display: grid;
-    /* grid-template-rows: repeat(2, 1fr); */
     padding: 32px 24px;
     background: var(--light-gray);
     grid-column: 4 span;
@@ -85,9 +82,6 @@
 
 /* NEWS_НОВОСТИ */
 /* ----------------------------------- */
-.news {
-    padding-bottom: 80px;
-}
 
 .swiper {
     position: relative;
@@ -147,10 +141,11 @@
 
 .new_button {
     border-radius: 100%;
+    top: 40;
     padding: 30px;
-    width: 60px;
-    height: 60px;
-    background-color: white;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.952);
 }
 
 .prev {
@@ -164,4 +159,8 @@
 .swiper-button-prev::after,
 .swiper-button-next::after {
     content: "" !important;
+}
+.swiper-button-next,
+.swiper-button-prev {
+    top: 190px;
 }
