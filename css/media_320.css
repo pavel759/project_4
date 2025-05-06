@@ -4,4 +4,10 @@
         white-space: normal;
     }
 
+
+    .news_slide {
+max-width: 395px; !important
+}
+
+
 }
